@@ -22,6 +22,11 @@ console.log(array)
 bubble_sort(array)
 console.log(array)
 
+//Qual é principio de fucionamento
+//O tempo de execução (On²) em casos especiais (On)
+//Se é estavel ou in-place
+//
+
 /*
 do
 
