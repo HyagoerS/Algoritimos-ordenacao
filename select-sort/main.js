@@ -15,16 +15,17 @@ function encontrar_menor(array, j){
     return indice_menor
 }
 
-function swap(valor1, valor2){
+/*function swap(valor1, valor2){
     let temp = valor1
     valor1 = valor2
     valor2 = temp
-}
+}*/
 
 function selection_sort(array){
     for (let i = 0; i < array.length; i++)
-        let indice_menor = encontrar_menor(array, i)
-        let temp = array[i]
+        indice_menor = encontrar_menor(array, i)
+        
+    let temp = array[j]
         array[i] = array[indice_menor]
         array[indice_menor] = temp
 }
