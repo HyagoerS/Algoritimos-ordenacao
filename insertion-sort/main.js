@@ -1,6 +1,12 @@
-function insertion_sort(array){
+function insertion_sort(array){ 
+
 
 }
+
+let array = [2, 24, 6, 1, 6]
+console.log(array)
+insertion_sort(array)
+console.log(array)
 
 /*
 mark first element as sorted
