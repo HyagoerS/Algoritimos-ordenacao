@@ -34,3 +34,32 @@ array = [2, 24, 6, 1, 6]
 console.log(array)
 selection_sort(array)
 console.log(array)
+
+function random_array(){
+    const array = []
+    const MAX = 1000
+    for (let i = 0; i < MAX; i++){
+        const random = Math.floor(Math.random() * MAX)
+        array.push(random)
+    }
+    return array
+}
+
+const random = random_array()
+const random_selection = random.concat()
+
+
+function executar_selection(array){
+    const start = performance.now()
+    selectionSort(array)
+    const end = performance.now()
+    console.log(`Execução SELECTION: ${end - start} ms`)
+}
+
+
+
+console.log("RANDOM")
+executar_selection(random_selection)
+
+console.log("SORT")
+executar_selection(sort_selection)
